@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC65B2921BC2A9B4003D7681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65B2911BC2A9B4003D7681 /* main.m */; };
+		EC65B2951BC2A9B4003D7681 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65B2941BC2A9B4003D7681 /* AppDelegate.m */; };
+		EC65B2981BC2A9B4003D7681 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65B2971BC2A9B4003D7681 /* ViewController.m */; };
+		EC65B29B1BC2A9B4003D7681 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC65B2991BC2A9B4003D7681 /* Main.storyboard */; };
+		EC65B29D1BC2A9B4003D7681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC65B29C1BC2A9B4003D7681 /* Assets.xcassets */; };
+		EC65B2A01BC2A9B4003D7681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC65B29E1BC2A9B4003D7681 /* LaunchScreen.storyboard */; };
+		EC65B2AB1BC2A9B4003D7681 /* ESGI_LibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65B2AA1BC2A9B4003D7681 /* ESGI_LibraryTests.m */; };
+		EC65B2B61BC2A9B4003D7681 /* ESGI_LibraryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65B2B51BC2A9B4003D7681 /* ESGI_LibraryUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC65B2A71BC2A9B4003D7681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC65B2851BC2A9B4003D7681 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC65B28C1BC2A9B4003D7681;
+			remoteInfo = "ESGI Library";
+		};
+		EC65B2B21BC2A9B4003D7681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC65B2851BC2A9B4003D7681 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC65B28C1BC2A9B4003D7681;
+			remoteInfo = "ESGI Library";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC65B28D1BC2A9B4003D7681 /* ESGI Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESGI Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC65B2911BC2A9B4003D7681 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC65B2931BC2A9B4003D7681 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC65B2941BC2A9B4003D7681 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC65B2961BC2A9B4003D7681 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC65B2971BC2A9B4003D7681 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC65B29A1BC2A9B4003D7681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC65B29C1BC2A9B4003D7681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC65B29F1BC2A9B4003D7681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC65B2A11BC2A9B4003D7681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC65B2A61BC2A9B4003D7681 /* ESGI LibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ESGI LibraryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC65B2AA1BC2A9B4003D7681 /* ESGI_LibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESGI_LibraryTests.m; sourceTree = "<group>"; };
+		EC65B2AC1BC2A9B4003D7681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC65B2B11BC2A9B4003D7681 /* ESGI LibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ESGI LibraryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC65B2B51BC2A9B4003D7681 /* ESGI_LibraryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESGI_LibraryUITests.m; sourceTree = "<group>"; };
+		EC65B2B71BC2A9B4003D7681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC65B28A1BC2A9B4003D7681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC65B2A31BC2A9B4003D7681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC65B2AE1BC2A9B4003D7681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC65B2841BC2A9B4003D7681 = {
+			isa = PBXGroup;
+			children = (
+				EC65B28F1BC2A9B4003D7681 /* ESGI Library */,
+				EC65B2A91BC2A9B4003D7681 /* ESGI LibraryTests */,
+				EC65B2B41BC2A9B4003D7681 /* ESGI LibraryUITests */,
+				EC65B28E1BC2A9B4003D7681 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC65B28E1BC2A9B4003D7681 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC65B28D1BC2A9B4003D7681 /* ESGI Library.app */,
+				EC65B2A61BC2A9B4003D7681 /* ESGI LibraryTests.xctest */,
+				EC65B2B11BC2A9B4003D7681 /* ESGI LibraryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC65B28F1BC2A9B4003D7681 /* ESGI Library */ = {
+			isa = PBXGroup;
+			children = (
+				EC65B2931BC2A9B4003D7681 /* AppDelegate.h */,
+				EC65B2941BC2A9B4003D7681 /* AppDelegate.m */,
+				EC65B2961BC2A9B4003D7681 /* ViewController.h */,
+				EC65B2971BC2A9B4003D7681 /* ViewController.m */,
+				EC65B2991BC2A9B4003D7681 /* Main.storyboard */,
+				EC65B29C1BC2A9B4003D7681 /* Assets.xcassets */,
+				EC65B29E1BC2A9B4003D7681 /* LaunchScreen.storyboard */,
+				EC65B2A11BC2A9B4003D7681 /* Info.plist */,
+				EC65B2901BC2A9B4003D7681 /* Supporting Files */,
+			);
+			path = "ESGI Library";
+			sourceTree = "<group>";
+		};
+		EC65B2901BC2A9B4003D7681 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC65B2911BC2A9B4003D7681 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC65B2A91BC2A9B4003D7681 /* ESGI LibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC65B2AA1BC2A9B4003D7681 /* ESGI_LibraryTests.m */,
+				EC65B2AC1BC2A9B4003D7681 /* Info.plist */,
+			);
+			path = "ESGI LibraryTests";
+			sourceTree = "<group>";
+		};
+		EC65B2B41BC2A9B4003D7681 /* ESGI LibraryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC65B2B51BC2A9B4003D7681 /* ESGI_LibraryUITests.m */,
+				EC65B2B71BC2A9B4003D7681 /* Info.plist */,
+			);
+			path = "ESGI LibraryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC65B28C1BC2A9B4003D7681 /* ESGI Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC65B2BA1BC2A9B4003D7681 /* Build configuration list for PBXNativeTarget "ESGI Library" */;
+			buildPhases = (
+				EC65B2891BC2A9B4003D7681 /* Sources */,
+				EC65B28A1BC2A9B4003D7681 /* Frameworks */,
+				EC65B28B1BC2A9B4003D7681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ESGI Library";
+			productName = "ESGI Library";
+			productReference = EC65B28D1BC2A9B4003D7681 /* ESGI Library.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC65B2A51BC2A9B4003D7681 /* ESGI LibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC65B2BD1BC2A9B4003D7681 /* Build configuration list for PBXNativeTarget "ESGI LibraryTests" */;
+			buildPhases = (
+				EC65B2A21BC2A9B4003D7681 /* Sources */,
+				EC65B2A31BC2A9B4003D7681 /* Frameworks */,
+				EC65B2A41BC2A9B4003D7681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC65B2A81BC2A9B4003D7681 /* PBXTargetDependency */,
+			);
+			name = "ESGI LibraryTests";
+			productName = "ESGI LibraryTests";
+			productReference = EC65B2A61BC2A9B4003D7681 /* ESGI LibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC65B2B01BC2A9B4003D7681 /* ESGI LibraryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC65B2C01BC2A9B4003D7681 /* Build configuration list for PBXNativeTarget "ESGI LibraryUITests" */;
+			buildPhases = (
+				EC65B2AD1BC2A9B4003D7681 /* Sources */,
+				EC65B2AE1BC2A9B4003D7681 /* Frameworks */,
+				EC65B2AF1BC2A9B4003D7681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC65B2B31BC2A9B4003D7681 /* PBXTargetDependency */,
+			);
+			name = "ESGI LibraryUITests";
+			productName = "ESGI LibraryUITests";
+			productReference = EC65B2B11BC2A9B4003D7681 /* ESGI LibraryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC65B2851BC2A9B4003D7681 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Etudiant;
+				TargetAttributes = {
+					EC65B28C1BC2A9B4003D7681 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					EC65B2A51BC2A9B4003D7681 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = EC65B28C1BC2A9B4003D7681;
+					};
+					EC65B2B01BC2A9B4003D7681 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = EC65B28C1BC2A9B4003D7681;
+					};
+				};
+			};
+			buildConfigurationList = EC65B2881BC2A9B4003D7681 /* Build configuration list for PBXProject "ESGI Library" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC65B2841BC2A9B4003D7681;
+			productRefGroup = EC65B28E1BC2A9B4003D7681 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC65B28C1BC2A9B4003D7681 /* ESGI Library */,
+				EC65B2A51BC2A9B4003D7681 /* ESGI LibraryTests */,
+				EC65B2B01BC2A9B4003D7681 /* ESGI LibraryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC65B28B1BC2A9B4003D7681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC65B2A01BC2A9B4003D7681 /* LaunchScreen.storyboard in Resources */,
+				EC65B29D1BC2A9B4003D7681 /* Assets.xcassets in Resources */,
+				EC65B29B1BC2A9B4003D7681 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC65B2A41BC2A9B4003D7681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC65B2AF1BC2A9B4003D7681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC65B2891BC2A9B4003D7681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC65B2981BC2A9B4003D7681 /* ViewController.m in Sources */,
+				EC65B2951BC2A9B4003D7681 /* AppDelegate.m in Sources */,
+				EC65B2921BC2A9B4003D7681 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC65B2A21BC2A9B4003D7681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC65B2AB1BC2A9B4003D7681 /* ESGI_LibraryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC65B2AD1BC2A9B4003D7681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC65B2B61BC2A9B4003D7681 /* ESGI_LibraryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC65B2A81BC2A9B4003D7681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC65B28C1BC2A9B4003D7681 /* ESGI Library */;
+			targetProxy = EC65B2A71BC2A9B4003D7681 /* PBXContainerItemProxy */;
+		};
+		EC65B2B31BC2A9B4003D7681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC65B28C1BC2A9B4003D7681 /* ESGI Library */;
+			targetProxy = EC65B2B21BC2A9B4003D7681 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC65B2991BC2A9B4003D7681 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC65B29A1BC2A9B4003D7681 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC65B29E1BC2A9B4003D7681 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC65B29F1BC2A9B4003D7681 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC65B2B81BC2A9B4003D7681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC65B2B91BC2A9B4003D7681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC65B2BB1BC2A9B4003D7681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ESGI Library/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kilomobi.ESGI-Library";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC65B2BC1BC2A9B4003D7681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ESGI Library/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kilomobi.ESGI-Library";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC65B2BE1BC2A9B4003D7681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ESGI LibraryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kilomobi.ESGI-LibraryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESGI Library.app/ESGI Library";
+			};
+			name = Debug;
+		};
+		EC65B2BF1BC2A9B4003D7681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ESGI LibraryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kilomobi.ESGI-LibraryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESGI Library.app/ESGI Library";
+			};
+			name = Release;
+		};
+		EC65B2C11BC2A9B4003D7681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ESGI LibraryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kilomobi.ESGI-LibraryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ESGI Library";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EC65B2C21BC2A9B4003D7681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ESGI LibraryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kilomobi.ESGI-LibraryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ESGI Library";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC65B2881BC2A9B4003D7681 /* Build configuration list for PBXProject "ESGI Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC65B2B81BC2A9B4003D7681 /* Debug */,
+				EC65B2B91BC2A9B4003D7681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC65B2BA1BC2A9B4003D7681 /* Build configuration list for PBXNativeTarget "ESGI Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC65B2BB1BC2A9B4003D7681 /* Debug */,
+				EC65B2BC1BC2A9B4003D7681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC65B2BD1BC2A9B4003D7681 /* Build configuration list for PBXNativeTarget "ESGI LibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC65B2BE1BC2A9B4003D7681 /* Debug */,
+				EC65B2BF1BC2A9B4003D7681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC65B2C01BC2A9B4003D7681 /* Build configuration list for PBXNativeTarget "ESGI LibraryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC65B2C11BC2A9B4003D7681 /* Debug */,
+				EC65B2C21BC2A9B4003D7681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC65B2851BC2A9B4003D7681 /* Project object */;
+}

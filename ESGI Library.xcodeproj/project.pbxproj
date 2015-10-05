@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC058E171BC2B1D800F3CAB7 /* SerializableBlurayRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = EC058E161BC2B1D800F3CAB7 /* SerializableBlurayRepository.m */; settings = {ASSET_TAGS = (); }; };
 		EC65B2921BC2A9B4003D7681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65B2911BC2A9B4003D7681 /* main.m */; };
 		EC65B29B1BC2A9B4003D7681 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC65B2991BC2A9B4003D7681 /* Main.storyboard */; };
 		EC65B29D1BC2A9B4003D7681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC65B29C1BC2A9B4003D7681 /* Assets.xcassets */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC058E151BC2B1D800F3CAB7 /* SerializableBlurayRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerializableBlurayRepository.h; sourceTree = "<group>"; };
+		EC058E161BC2B1D800F3CAB7 /* SerializableBlurayRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerializableBlurayRepository.m; sourceTree = "<group>"; };
 		EC65B28D1BC2A9B4003D7681 /* ESGI Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESGI Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC65B2911BC2A9B4003D7681 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC65B29A1BC2A9B4003D7681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,6 +51,7 @@
 		EC65B2CD1BC2AC4D003D7681 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EC65B2D51BC2AD44003D7681 /* Bluray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bluray.h; sourceTree = "<group>"; };
 		EC65B2D61BC2AD44003D7681 /* Bluray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bluray.m; sourceTree = "<group>"; };
+		EC65B2D81BC2AF45003D7681 /* IBlurayRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBlurayRepository.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,16 +142,17 @@
 		EC65B2CF1BC2AC4D003D7681 /* Platforms */ = {
 			isa = PBXGroup;
 			children = (
-				EC65B2D01BC2AC4D003D7681 /* Serialisation */,
+				EC65B2D01BC2AC4D003D7681 /* Serialization */,
 			);
 			path = Platforms;
 			sourceTree = SOURCE_ROOT;
 		};
-		EC65B2D01BC2AC4D003D7681 /* Serialisation */ = {
+		EC65B2D01BC2AC4D003D7681 /* Serialization */ = {
 			isa = PBXGroup;
 			children = (
 				EC65B2D41BC2AD0A003D7681 /* Bluray */,
 			);
+			name = Serialization;
 			path = Serialisation;
 			sourceTree = "<group>";
 		};
@@ -156,6 +161,7 @@
 			children = (
 				EC65B2D51BC2AD44003D7681 /* Bluray.h */,
 				EC65B2D61BC2AD44003D7681 /* Bluray.m */,
+				EC65B2D81BC2AF45003D7681 /* IBlurayRepository.h */,
 			);
 			path = Bluray;
 			sourceTree = "<group>";
@@ -163,6 +169,8 @@
 		EC65B2D41BC2AD0A003D7681 /* Bluray */ = {
 			isa = PBXGroup;
 			children = (
+				EC058E151BC2B1D800F3CAB7 /* SerializableBlurayRepository.h */,
+				EC058E161BC2B1D800F3CAB7 /* SerializableBlurayRepository.m */,
 			);
 			path = Bluray;
 			sourceTree = "<group>";
@@ -300,6 +308,7 @@
 				EC65B2D21BC2AC4D003D7681 /* ViewController.m in Sources */,
 				EC65B2D11BC2AC4D003D7681 /* AppDelegate.m in Sources */,
 				EC65B2D71BC2AD44003D7681 /* Bluray.m in Sources */,
+				EC058E171BC2B1D800F3CAB7 /* SerializableBlurayRepository.m in Sources */,
 				EC65B2921BC2A9B4003D7681 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +533,7 @@
 				EC65B2BC1BC2A9B4003D7681 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC65B2BD1BC2A9B4003D7681 /* Build configuration list for PBXNativeTarget "ESGI LibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +542,7 @@
 				EC65B2BF1BC2A9B4003D7681 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC65B2C01BC2A9B4003D7681 /* Build configuration list for PBXNativeTarget "ESGI LibraryUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +551,7 @@
 				EC65B2C21BC2A9B4003D7681 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

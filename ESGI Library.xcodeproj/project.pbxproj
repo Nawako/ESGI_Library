@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		EC65B2921BC2A9B4003D7681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65B2911BC2A9B4003D7681 /* main.m */; };
-		EC65B2951BC2A9B4003D7681 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65B2941BC2A9B4003D7681 /* AppDelegate.m */; };
-		EC65B2981BC2A9B4003D7681 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65B2971BC2A9B4003D7681 /* ViewController.m */; };
 		EC65B29B1BC2A9B4003D7681 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC65B2991BC2A9B4003D7681 /* Main.storyboard */; };
 		EC65B29D1BC2A9B4003D7681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC65B29C1BC2A9B4003D7681 /* Assets.xcassets */; };
 		EC65B2A01BC2A9B4003D7681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC65B29E1BC2A9B4003D7681 /* LaunchScreen.storyboard */; };
-		EC65B2AB1BC2A9B4003D7681 /* ESGI_LibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65B2AA1BC2A9B4003D7681 /* ESGI_LibraryTests.m */; };
-		EC65B2B61BC2A9B4003D7681 /* ESGI_LibraryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65B2B51BC2A9B4003D7681 /* ESGI_LibraryUITests.m */; };
+		EC65B2D11BC2AC4D003D7681 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65B2CB1BC2AC4D003D7681 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		EC65B2D21BC2AC4D003D7681 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65B2CD1BC2AC4D003D7681 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EC65B2D71BC2AD44003D7681 /* Bluray.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65B2D61BC2AD44003D7681 /* Bluray.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +36,18 @@
 /* Begin PBXFileReference section */
 		EC65B28D1BC2A9B4003D7681 /* ESGI Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESGI Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC65B2911BC2A9B4003D7681 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EC65B2931BC2A9B4003D7681 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EC65B2941BC2A9B4003D7681 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EC65B2961BC2A9B4003D7681 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EC65B2971BC2A9B4003D7681 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EC65B29A1BC2A9B4003D7681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC65B29C1BC2A9B4003D7681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC65B29F1BC2A9B4003D7681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC65B2A11BC2A9B4003D7681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC65B2A61BC2A9B4003D7681 /* ESGI LibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ESGI LibraryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC65B2AA1BC2A9B4003D7681 /* ESGI_LibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESGI_LibraryTests.m; sourceTree = "<group>"; };
-		EC65B2AC1BC2A9B4003D7681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC65B2B11BC2A9B4003D7681 /* ESGI LibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ESGI LibraryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC65B2B51BC2A9B4003D7681 /* ESGI_LibraryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESGI_LibraryUITests.m; sourceTree = "<group>"; };
-		EC65B2B71BC2A9B4003D7681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC65B2CA1BC2AC4D003D7681 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC65B2CB1BC2AC4D003D7681 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC65B2CC1BC2AC4D003D7681 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC65B2CD1BC2AC4D003D7681 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC65B2D51BC2AD44003D7681 /* Bluray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bluray.h; sourceTree = "<group>"; };
+		EC65B2D61BC2AD44003D7681 /* Bluray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bluray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				EC65B28F1BC2A9B4003D7681 /* ESGI Library */,
-				EC65B2A91BC2A9B4003D7681 /* ESGI LibraryTests */,
-				EC65B2B41BC2A9B4003D7681 /* ESGI LibraryUITests */,
 				EC65B28E1BC2A9B4003D7681 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,10 +96,9 @@
 		EC65B28F1BC2A9B4003D7681 /* ESGI Library */ = {
 			isa = PBXGroup;
 			children = (
-				EC65B2931BC2A9B4003D7681 /* AppDelegate.h */,
-				EC65B2941BC2A9B4003D7681 /* AppDelegate.m */,
-				EC65B2961BC2A9B4003D7681 /* ViewController.h */,
-				EC65B2971BC2A9B4003D7681 /* ViewController.m */,
+				EC65B2C91BC2AC4D003D7681 /* Application */,
+				EC65B2CE1BC2AC4D003D7681 /* Domains */,
+				EC65B2CF1BC2AC4D003D7681 /* Platforms */,
 				EC65B2991BC2A9B4003D7681 /* Main.storyboard */,
 				EC65B29C1BC2A9B4003D7681 /* Assets.xcassets */,
 				EC65B29E1BC2A9B4003D7681 /* LaunchScreen.storyboard */,
@@ -122,22 +116,55 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EC65B2A91BC2A9B4003D7681 /* ESGI LibraryTests */ = {
+		EC65B2C91BC2AC4D003D7681 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				EC65B2AA1BC2A9B4003D7681 /* ESGI_LibraryTests.m */,
-				EC65B2AC1BC2A9B4003D7681 /* Info.plist */,
+				EC65B2CA1BC2AC4D003D7681 /* AppDelegate.h */,
+				EC65B2CB1BC2AC4D003D7681 /* AppDelegate.m */,
+				EC65B2CC1BC2AC4D003D7681 /* ViewController.h */,
+				EC65B2CD1BC2AC4D003D7681 /* ViewController.m */,
 			);
-			path = "ESGI LibraryTests";
+			path = Application;
+			sourceTree = SOURCE_ROOT;
+		};
+		EC65B2CE1BC2AC4D003D7681 /* Domains */ = {
+			isa = PBXGroup;
+			children = (
+				EC65B2D31BC2ACF5003D7681 /* Bluray */,
+			);
+			path = Domains;
+			sourceTree = SOURCE_ROOT;
+		};
+		EC65B2CF1BC2AC4D003D7681 /* Platforms */ = {
+			isa = PBXGroup;
+			children = (
+				EC65B2D01BC2AC4D003D7681 /* Serialisation */,
+			);
+			path = Platforms;
+			sourceTree = SOURCE_ROOT;
+		};
+		EC65B2D01BC2AC4D003D7681 /* Serialisation */ = {
+			isa = PBXGroup;
+			children = (
+				EC65B2D41BC2AD0A003D7681 /* Bluray */,
+			);
+			path = Serialisation;
 			sourceTree = "<group>";
 		};
-		EC65B2B41BC2A9B4003D7681 /* ESGI LibraryUITests */ = {
+		EC65B2D31BC2ACF5003D7681 /* Bluray */ = {
 			isa = PBXGroup;
 			children = (
-				EC65B2B51BC2A9B4003D7681 /* ESGI_LibraryUITests.m */,
-				EC65B2B71BC2A9B4003D7681 /* Info.plist */,
+				EC65B2D51BC2AD44003D7681 /* Bluray.h */,
+				EC65B2D61BC2AD44003D7681 /* Bluray.m */,
 			);
-			path = "ESGI LibraryUITests";
+			path = Bluray;
+			sourceTree = "<group>";
+		};
+		EC65B2D41BC2AD0A003D7681 /* Bluray */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bluray;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,8 +297,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC65B2981BC2A9B4003D7681 /* ViewController.m in Sources */,
-				EC65B2951BC2A9B4003D7681 /* AppDelegate.m in Sources */,
+				EC65B2D21BC2AC4D003D7681 /* ViewController.m in Sources */,
+				EC65B2D11BC2AC4D003D7681 /* AppDelegate.m in Sources */,
+				EC65B2D71BC2AD44003D7681 /* Bluray.m in Sources */,
 				EC65B2921BC2A9B4003D7681 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +308,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC65B2AB1BC2A9B4003D7681 /* ESGI_LibraryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +315,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC65B2B61BC2A9B4003D7681 /* ESGI_LibraryUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
